@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "es2015", // TS のモジュールは ES Modules として出力する
+    "target": "es5", // トランスパイル後の es のバージョン指定する
+    "declaration": true, // 型定義ファイル .d.ts を生成する
+    "outDir": "./dist/types", // 型定義ファイルの出力先を指定する
+    "sourceMap": true, // ソースマップ作成の有無を指定する
+    "strict": true, // すべての厳密な型チェックオプションを有効にする
+    "noImplicitAny": false, // 暗黙の any 型で式と宣言のエラーを発生させる
+    "strictNullChecks": true,  // 厳密なヌルチェックを有効にする
+    "noImplicitThis": true, // 暗黙の any 型で this 式のエラーを発生させる
+    "noUnusedLocals": true, // 未使用のローカルのエラーを報告する
+    "noUnusedParameters": true, // 未使用のパラメータのエラーを報告する
+    "noImplicitReturns": true, // 関数内のすべてのコードパスが値を返さない場合エラーを報告する
+    "esModuleInterop": true, // CommonJS モジュールと ES モジュール間の相互運用性をすべてのインポート用に名前空間オブジェクトを作成することで可能にする
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    // "**/*.spec.ts"
+  ]
+}
+  
+  

@@ -1,0 +1,1 @@
+import 'create-npm/dist/style.css';
